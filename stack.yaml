@@ -4,4 +4,4 @@ packages:
   - .
 
 ghc-options:
-  "$everything": -j "+RTS --nonmoving-gc -RTS"
+  "$everything": -j
