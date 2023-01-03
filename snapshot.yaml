@@ -1,3 +1,3 @@
-resolver: nightly-2022-12-22
-compiler: ghc-9.7.20221225
+resolver: lts-20.11
+compiler: ghc-9.2.6
 name: test-snapshot

@@ -4,7 +4,4 @@ packages:
   - .
 
 ghc-options:
-  "$everything": -j "+RTS --nonmoving-gc -RTS"
-
-system-ghc: true
-install-ghc: false
+  "$everything": -j +RTS --nonmoving-gc -RTS
