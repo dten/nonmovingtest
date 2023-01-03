@@ -1,0 +1,11 @@
+resolver: ./snapshot.yaml
+
+packages:
+  - .
+
+ghc-options:
+  "$everything": -j "+RTS --nonmoving-gc -RTS"
+
+system-ghc: true
+install-ghc: false
+ghc-build: standard
