@@ -1,0 +1,14 @@
+resolver: ./snapshot.yaml
+
+packages:
+  - .
+
+ghc-options:
+  "$everything": -j "+RTS --nonmoving-gc -RTS"
+
+<<<<<<< HEAD
+system-ghc: true
+install-ghc: false
+=======
+ghc-build: standard
+>>>>>>> ghc-9.4.3 from stack
